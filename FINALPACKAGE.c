@@ -110,56 +110,43 @@
 	{	n=rand()%10-1+7%2;
 	  
         if(n==0){printf("\nQuestion - What is the name of the group of animals which are active during twilight?\na)Diurnal\nb)Crepuscular\nc)Matutinal\nd)Vespertine\n");
- 
-		
 	        scanf("%c",&x);
-       x=tolower(x);
+       		x=tolower(x);
                 if (x=='b'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is b)Crepuscular.");getc(stdin);};}
         if(n==1){printf("\nQuestion - This nut can be sweet or bitter and its oil is used in cosmetics, aromatherapy and in making marzipan. USA is the top producer of it.\na)Pine nut\nb)Groundnut			\nc)Cashew nut\nd) Almond\n");
-        		
-
 	        scanf("%c",&x);
-       x=tolower(x);
+       		x=tolower(x);
                 if (x=='d'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is d)Almond.");getc(stdin);};}
         if(n==2){printf("\nQuestion - These crustaceans or animals with hard shells are called decapods, which means they have 10 legs. The one pair of legs have enlarged pincers which help them grasp 		and tear their food. Which of the following is a decapod?\na)Grasshopper\nb)Lobster\nc)Spider			\nd)Octopus\n");
-	       	
-		    scanf("%c",&x);
+		scanf("%c",&x);
 	        x=tolower(x);
                 if (x=='b'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is b)Lobster.");getc(stdin);};}
-        if(n==3){printf("\nQuestion - Which of the following statements is incorrect?\na)Photochemical smog always contains ozone\nb)Forests are called green lungs because they maintain the balance 			between oxygen and carbon dioxide in the atmosphere.\nc)Lead is the most hazardous metal 			pollutant of automobile dust.\nd)None of these\n");
-	        	
-		    scanf("%c",&x);
+        if(n==3){printf("\nQuestion - Which of the following statements is incorrect?\na)Photochemical smog always contains ozone\nb)Forests are called green lungs because they maintain the balance 			between oxygen and carbon dioxide in the atmosphere.\nc)Lead is the most hazardous metal 			pollutant of automobile dust.\nd)None of these\n");	
+		scanf("%c",&x);
 	        x=tolower(x);
                 if (x=='d'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is d)None of these.");getc(stdin);};}
         if(n==4){printf("\nQuestion - Which of the following movements is taking place in Odisha where fertile land is being taken for missile testing?\na)Baliapal movement\nb)Chipko movement			\nc)Bishnoi movement\nd)Appiko movement\n");
-	        	
-
-	scanf("%c",&x);
+		scanf("%c",&x);
 	        x=tolower(x);
                 if (x=='a'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is a)Baliapal movement.");getc(stdin);};}
         if(n==5){printf("\nQuestion - The Antarctic treaty states that \na)The continent should be used for scientific research only.\nb)The continent be used for tourist purpose only.\nc)No person 			can live on Antarctica.\nd)Only wild tribes are free to live on the continent.\n");
-	        	
-	
-	scanf("%c",&x);
+		scanf("%c",&x);
 	        x=tolower(x);
                 if (x=='a'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is a)the continent should be used for scientific research only.");getc(stdin);};}
         if(n==6){printf("\nQuestion - A piece of an apple turns brown when exposed to the atmosphere, which kind of change is it?\na) Physical\nb)Chemical\nc)Both a) and b)\nd)None of the above.			\n");
-        		
-
-	scanf("%c",&x);
-       x=tolower(x);
+		scanf("%c",&x);
+       		x=tolower(x);
                 if (x=='b'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is b)chemical.");getc(stdin);};}
         if(n==7){printf("\nQuestion - Trachoma disease affects _______.\na)Eyes\nb)Liver\nc)Lungs\nd)Stomach\n");
-        
-	scanf("%c",&x);
-       x=tolower(x);
+		scanf("%c",&x);
+       		x=tolower(x);
                 if (x=='a'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is a)Eyes.");getc(stdin);};}
         if(n==8){printf("\nQuestion - Who proposed the law of electrolysis?\na)Michael Faraday\nb)Isaac newton\nc)Albert Einstein\nd)James Clerk Maxwell\n");
@@ -168,9 +155,8 @@
                 if (x=='a'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is a)Michael Faraday.");getc(stdin);};}
         if(n==9){printf("\nQuestion - Which of the following is the largest natural satellite in our solar system?\na)Triton\nb)Callisto\nc)Ganymede\nd)Titania\n");
-        
-	scanf("%c",&x);
-       x=tolower(x);
+		scanf("%c",&x);
+       		x=tolower(x);
                 if (x=='c'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is c)Ganymede.");getc(stdin);};}
 		}
@@ -180,9 +166,8 @@
 	for(i=0;i<5;i++)
 	{	n=rand()%10-1+7%2;
         if(n==0){printf("\nQuestion - There is something that we all can do _______ all the difficulties.\na) have\nb) within\nc) because\nd) despite\n");
-        
-	scanf("%c",&x);
-       x=tolower(x);
+		scanf("%c",&x);
+       		x=tolower(x);
                 if (x=='d'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is d) despite.");getc(stdin);};}
         if(n==1){printf("\nQuestion - _________ a lot of work to do, so will need a break.\na) I’ll have \nb)I’d had\nc) I’m being had\nd) I’ m having to.\n");
@@ -363,17 +348,3 @@
 	}
 	return 0;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
