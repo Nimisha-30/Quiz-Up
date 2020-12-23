@@ -181,7 +181,7 @@
 	        x=tolower(x);
                 if (x=='c'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is c) Conquer.");getc(stdin);};}
-        if(n==3){printf("\nQuestion - Jaya: How was the function yesterday?\nRati:________\na) That is a strange question\nb) Great! We had a ball dance.\nc) You shouldn’t worry about it\nd) Take it 			easy\n");
+        if(n==3){printf("\nQuestion - Jaya: How was the function yesterday?\nRati:________\na) That is a strange question\nb) Great! We had a ball dance.\nc) You shouldn’t worry about it\nd) Take it easy\n");
 	        scanf("%c",&x);
 	        x=tolower(x);
                 if (x=='b'){printf("\n\nCorrect!!!");count++;getc(stdin);}
@@ -196,7 +196,7 @@
 	        x=tolower(x);
                 if (x=='d'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is d) Hi! I’ve been good. How about you?");getc(stdin);};}
-        if(n==6){printf("\nQuestion - Convert the following sentence to passive voice from active voice.\nThe doctor said to the patient, “Take this medicine twice daily”.\na)The doctor advised 		the patient to take that medicine twice daily.\nb)The doctor wished the patient took this 			medicine twice daily.\nc)The doctor told the patient to taken this medicine twice daily.\nd)The 		doctor told the patient take this medicine twice daily.\n");
+        if(n==6){printf("\nQuestion - Convert the following sentence to passive voice from active voice.\nThe doctor said to the patient, “Take this medicine twice daily”.\na)The doctor advised the patient to take that medicine twice daily.\nb)The doctor wished the patient took this 			medicine twice daily.\nc)The doctor told the patient to taken this medicine twice daily.\nd)The 		doctor told the patient take this medicine twice daily.\n");
 	        scanf("%c",&x);
 	        x=tolower(x);
                 if (x=='d'){printf("\n\nCorrect!!!");count++;getc(stdin);}
@@ -266,12 +266,12 @@
 	        scanf("%c",&x);
 	        x=tolower(x);
                 if (x=='d'){printf("\n\nCorrect!!!");count++;getc(stdin);}
-                else{printf("\n\nWrong!!! The correct answer is (d)	 High and low tides in sea are the examples of non-periodic changes while growth of a tree is a periodic change.");getc			(stdin);};}
+                else{printf("\n\nWrong!!! The correct answer is (d)	 High and low tides in sea are the examples of non-periodic changes while growth of a tree is a periodic change.");getc	(stdin);};}
         if(n==9){printf("\nQuestion - Nitu mixed some iron filings with sulphur powder in a China dish. She heated the contents of China dish.  What did she observe during the experiment?\n(a)  There was no difference in the contents of China dish before and after heating.\n(b)	 Before heating, iron filings and sulphur powder could be seen separately but after heating the contents became black.\n(c)  Before heating, the iron filings and sulphur powder could not be seen separately.\n(d)  Before heating, the contents were black and after heating, iron filings and sulphur could be seen separately.\n");
 	        scanf("%c",&x);
 	        x=tolower(x);
                 if (x=='b'){printf("\n\nCorrect!!!");count++;getc(stdin);}
-                else{printf("\n\nWrong!!! The correct answer is (b)	 Before heating, iron filings and sulphur powder could be seen separately but after heating the contents became 				black.");getc(stdin);};}
+                else{printf("\n\nWrong!!! The correct answer is (b)	 Before heating, iron filings and sulphur powder could be seen separately but after heating the contents became black.");getc(stdin);};}
 	}
 	system("cls");
 	printf("Mathematics");
