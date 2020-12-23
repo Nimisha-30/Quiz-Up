@@ -196,7 +196,7 @@
 	        x=tolower(x);
                 if (x=='d'){printf("\n\nCorrect!!!");count++;getc(stdin);}
                 else{printf("\n\nWrong!!! The correct answer is d) Hi! I’ve been good. How about you?");getc(stdin);};}
-        if(n==6){printf("\nQuestion - Convert the following sentence to passive voice from active voice.\nThe doctor said to the patient, “Take this medicine twice daily”.\na)The doctor advised the patient to take that medicine twice daily.\nb)The doctor wished the patient took this 			medicine twice daily.\nc)The doctor told the patient to taken this medicine twice daily.\nd)The 		doctor told the patient take this medicine twice daily.\n");
+        if(n==6){printf("\nQuestion - Convert the following sentence to passive voice from active voice.\nThe doctor said to the patient, “Take this medicine twice daily”.\na)The doctor advised the patient to take that medicine twice daily.\nb)The doctor wished the patient took this medicine twice daily.\nc)The doctor told the patient to taken this medicine twice daily.\nd)The doctor told the patient take this medicine twice daily.\n");
 	        scanf("%c",&x);
 	        x=tolower(x);
                 if (x=='d'){printf("\n\nCorrect!!!");count++;getc(stdin);}
